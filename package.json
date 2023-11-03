@@ -1,7 +1,7 @@
 {
-    "name": "1e-basic",
+    "name": "1f-basic-decapcms",
     "version": "1.0.0",
-    "description": "Basic template with Eleventy, LiquidJS & CSS",
+    "description": "Basic template with Eleventy, LiquidJS, CSS & DecapCMS",
     "main": "eleventy.config.js",
     "scripts": {
         "start": "npx @11ty/eleventy --serve",
