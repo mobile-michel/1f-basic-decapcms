@@ -36,3 +36,15 @@ collections: # Required
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
+      - label: "Decap CMS Elements"
+        name: "items"
+        file: "src/_data/decap.json"
+        fields:
+          - label: Elements
+            name: items
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Element, name: element, widget: string }
+              - { label: Value, name: value, widget: string }
