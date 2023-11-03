@@ -9,14 +9,14 @@
     },
     {
       "level": 1,
-      "element": "name",
+      "element": "backend > name",
       "required": true,
       "value": "git-gateway",
       "description": "the name of the backend"
     },
     {
       "level": 1,
-      "element": "branch",
+      "element": "backend > branch",
       "required": true,
       "value": "main",
       "description": "the branch of the backend"
