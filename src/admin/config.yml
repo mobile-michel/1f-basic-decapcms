@@ -39,3 +39,12 @@ collections: # Required
           - { label: Author URL, name: authorUrl, widget: string }
           - { label: Favicon, name: favicon, widget: string }
           - { label: Stylesheet, name: css, widget: string }
+      - label: "Decap CMS Elements"
+        name: "decap"
+        file: "src/_data/decap.json"
+        fields:
+          - { label: Level, name: level, widget: number }
+          - { label: Element, name: element, widget: string }
+          - { label: Required, name: required, widget: boolean }
+          - { label: Value, name: value, widget: string }
+          - { label: Description, name: description, widget: string }

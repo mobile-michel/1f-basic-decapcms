@@ -1,0 +1,48 @@
+[
+    {
+        "level": 0,
+        "element": "backend",
+        "required": true,
+        "description": "The backend is GitHub in my case"
+    },
+    {
+        "level": 1,
+        "element": "name",
+        "required": true,
+        "value": "git-gateway",
+        "description": "the name of the backend"
+    },
+    {
+        "level": 1,
+        "element": "branch",
+        "required": true,
+        "value": "main",
+        "description": "the branch of the backend"
+    },
+    {
+        "level": 0,
+        "element": "media_folder",
+        "required": true,
+        "value": "src/assets/images",
+        "description": "the folder where the images will be stored"
+    },
+    {
+        "level": 0,
+        "element": "public_folder",
+        "required": true,
+        "value": "assets/images",
+        "description": "the folder where the images will be retrieved from"
+    },
+    {
+        "level": 0,
+        "element": "collections",
+        "required": true,
+        "description": "the collections of the CMS"
+    },
+    {
+        "level": 1,
+        "element": "- label",
+        "required": true,
+        "description": "the label of the collection, used in the UI"
+    }
+]
