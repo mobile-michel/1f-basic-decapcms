@@ -59,7 +59,7 @@
     {
       "element": "collections > folder",
       "level": 1,
-      "required": true,
+      "required": false,
       "value": "src",
       "description": "The path to the folder where the documents are stored"
     },
