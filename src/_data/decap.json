@@ -47,7 +47,7 @@
       "element": "collections > - label",
       "required": true,
       "description": "the label of the collection, used in the UI",
-      "value": "empty"
+      "value": "Pages"
     },
     {
       "element": "collections > name",
@@ -55,6 +55,20 @@
       "required": true,
       "value": "pages",
       "description": "Used in routes"
+    },
+    {
+      "element": "collections > folder",
+      "level": 1,
+      "required": true,
+      "value": "src",
+      "description": "The path to the folder where the documents are stored"
+    },
+    {
+      "element": "collections > create",
+      "level": 1,
+      "value": "true",
+      "description": "Important, allow users to create new documents in this collection",
+      "required": true
     }
   ]
 }
