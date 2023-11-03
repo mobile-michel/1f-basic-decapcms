@@ -12,11 +12,7 @@ collections: # Required
       preview: false
     fields: # Required. The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"} # Required
-      - widget: select
-        label: "Layout"
-        name: "layout"
-        multiple: true
-        options: ["base", "blog"]
+      - {label: "Layout", name: "layout", widget: "string"}
       - widget: select
         label: "tags"
         name: "tags"
