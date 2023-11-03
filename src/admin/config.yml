@@ -1,0 +1,37 @@
+backend: # Required
+  name: git-gateway
+  branch: main
+media_folder: "src/assets/images" # Required
+public_folder: "assets/images" # Required
+collections: # Required
+  - label: "Pages" # Required. Used in the UI
+    name: "pages" # Required. Used in routes
+    folder: "src" # Required. The path to the folder where the documents are stored
+    create: true # Important. Allow users to create new documents in this collection
+    editor:
+      preview: false
+    fields: # Required. The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"} # Required
+      - {label: "Layout", name: "layout", widget: "string"}
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        options: ["primary", "sidebar", "footer"]
+      - {label: "Body", name: "body", widget: "markdown"} # Required
+  - label: "Settings"
+    name: "settings"
+    editor:
+      preview: false
+    files:
+      - label: "Meta Settings"
+        name: "settings"
+        file: "src/_data/site.json"
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Description, name: description, widget: string }
+          - { label: URL, name: url, widget: string }
+          - { label: Author name, name: authorName, widget: string }
+          - { label: Author URL, name: authorUrl, widget: string }
+          - { label: Favicon, name: favicon, widget: string }
+          - { label: Stylesheet, name: css, widget: string }

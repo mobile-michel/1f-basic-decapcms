@@ -1,0 +1,20 @@
+{
+    "name": "1e-basic",
+    "version": "1.0.0",
+    "description": "Basic template with Eleventy, LiquidJS & CSS",
+    "main": "eleventy.config.js",
+    "scripts": {
+        "start": "npx @11ty/eleventy --serve",
+        "build": "npx @11ty/eleventy --serveeleventy",
+        "debug": "DEBUG=* eleventy"
+    },
+    "keywords": [
+        "eleventy",
+        "liquidjs"
+    ],
+    "author": "Michel Maillard",
+    "license": "ISC",
+    "dependencies": {
+        "@11ty/eleventy": "^2.0.1"
+    }
+}
