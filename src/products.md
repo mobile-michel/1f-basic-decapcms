@@ -1,6 +1,7 @@
 ---
 title: Products
-layout: base
+layout:
+  - base
 tags:
   - primary
 ---
