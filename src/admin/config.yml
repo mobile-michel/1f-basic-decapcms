@@ -36,7 +36,7 @@ collections: # Required
           - { label: Favicon, name: favicon, widget: string }
           - { label: Stylesheet, name: css, widget: string }
       - label: "Decap CMS Elements"
-        name: "decap"
+        name: ""
         file: "src/_data/decap.json"
         fields:
           - { label: Level, name: level, widget: number }
