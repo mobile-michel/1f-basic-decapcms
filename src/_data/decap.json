@@ -43,18 +43,18 @@
       "value": "empty"
     },
     {
-      "element": "name",
+      "level": 1,
+      "element": "collections > - label",
+      "required": true,
+      "description": "the label of the collection, used in the UI",
+      "value": "empty"
+    },
+    {
+      "element": "collections > name",
       "level": 1,
       "required": true,
       "value": "pages",
       "description": "Used in routes"
-    },
-    {
-      "level": 1,
-      "element": "- label",
-      "required": true,
-      "description": "the label of the collection, used in the UI",
-      "value": "empty"
     }
   ]
 }
