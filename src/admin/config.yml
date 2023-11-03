@@ -43,8 +43,11 @@ collections: # Required
           - label: Elements
             name: items
             widget: list
-            allow_add: false
-            collapsed: false
+            allow_add: true
+            collapsed: true
             fields:
               - { label: Element, name: element, widget: string }
+              - { label: Level, name: level, widget: number }
+              - { label: Required, name: required, widget: boolean }
               - { label: Value, name: value, widget: string }
+              - { label: Description, name: description, widget: string }
