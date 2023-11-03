@@ -1,9 +1,9 @@
 {
-    "name": "1f-basic-decapcms",
-    "description": "Basic template with Eleventy, LiquidJS, CSS & DecapCMS",
-    "url": "",
-    "authorName": "Michel Maillard",
-    "authorUrl": "https://michelmaillard.ch/",
-    "favicon": "https://11ty.recipes/images/meta/favicon.svg",
-    "css": "style.css"
+  "name": "1f-basic-decapcms",
+  "description": "Basic template with Eleventy, LiquidJS, CSS & DecapCMS",
+  "url": "https://1f-basic-decapcms.netlify.app/",
+  "authorName": "Michel Maillard",
+  "authorUrl": "https://michelmaillard.ch/",
+  "favicon": "https://11ty.recipes/images/meta/favicon.svg",
+  "css": "style.css"
 }
