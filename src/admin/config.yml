@@ -24,30 +24,15 @@ collections: # Required
     editor:
       preview: false
     files:
-      - label: "Meta Settings"
-        name: "settings"
-        file: "src/_data/site.json"
+      - label: "Navigation"
+        name: "items"
+        file: "src/_data/links.json"
         fields:
-          - { label: Name, name: name, widget: string }
-          - { label: Description, name: description, widget: string }
-          - { label: URL, name: url, widget: string }
-          - { label: Author name, name: authorName, widget: string }
-          - { label: Author URL, name: authorUrl, widget: string }
-          - { label: Favicon, name: favicon, widget: string }
-          - { label: Stylesheet, name: css, widget: string }
-      - label: "Decap CMS Elements"
-        name: "decap"
-        file: "src/_data/decap.json"
-        create: true
-        fields:
-          - label: Decap CMS Elements
+          - label: Nav Items
             name: items
             widget: list
-            allow_add: true
-            collapsed: true
+            allow_add: false
+            collapsed: false
             fields:
-          - { label: Level, name: level, widget: number }
-          - { label: Element, name: element, widget: string }
-          - { label: Required, name: required, widget: boolean }
-          - { label: Value, name: value, widget: string }
-          - { label: Description, name: description, widget: string }
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
