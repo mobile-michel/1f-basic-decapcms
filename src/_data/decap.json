@@ -68,7 +68,7 @@
       "level": 1,
       "value": "true",
       "description": "Important, allow users to create new documents in this collection",
-      "required": true
+      "required": false
     }
   ]
 }
