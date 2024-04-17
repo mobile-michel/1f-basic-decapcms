@@ -5,8 +5,7 @@
     "main": "eleventy.config.js",
     "scripts": {
         "start": "npx @11ty/eleventy --serve",
-        "build": "eleventy --pathprefix '1f-basic-decapcms'",
-        "debug": "DEBUG=* eleventy"
+        "build": "eleventy"
     },
     "keywords": [
         "eleventy",
